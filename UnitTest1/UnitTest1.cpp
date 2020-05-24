@@ -12,10 +12,10 @@ namespace UnitTest1
 		TEST_METHOD(TestMethod1)
 		{
 			Assert::IsTrue(!is_prime_number(1));
-			Assert::IsTrue(!is_prime_number(2));
-			Assert::IsTrue(!is_prime_number(3));
-			Assert::IsTrue(!is_prime_number(5));
-			Assert::IsTrue(!is_prime_number(7));
+			Assert::IsTrue(is_prime_number(2));
+			Assert::IsTrue(is_prime_number(3));
+			Assert::IsTrue(is_prime_number(5));
+			Assert::IsTrue(is_prime_number(7));
 		}
 	};
 }
